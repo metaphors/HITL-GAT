@@ -1,0 +1,6 @@
+CINO-small-v2+TNCC-title	170	345
+CINO-base-v2+TNCC-title	166	345
+CINO-large-v2+TNCC-title	185	345
+CINO-small-v2+TU_SA	156	248
+CINO-base-v2+TU_SA	157	248
+CINO-large-v2+TU_SA	151	248

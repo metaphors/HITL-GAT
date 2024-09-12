@@ -1,0 +1,64 @@
+# Python
+__pycache__
+
+# PyCharm
+.idea
+
+# cache
+/cache/*
+
+# data
+/data/*
+
+# AttackAssist
+!/data/AttackAssist.TibetanWord2Vec
+!/data/AttackAssist.Tibetan-BERT/README.md
+!/data/AttackAssist.TiBERT/README.md
+!/data/AttackAssist.TibetSegEYE/README.md
+!/data/AttackAssist.TibetSegEYE/biotype.txt
+!/data/AttackAssist.TibetSegEYE/rec_dict_rset2.txt
+!/data/AttackAssist.TibetSegEYE/vocab.txt
+!/data/AttackAssist.TibetanSyllableVisualSimilarityDatabase
+!/data/AttackAssist.TibetanExtensionBasicTable
+
+# Dataset
+!/data/Dataset.Info
+!/data/Dataset.Loader
+!/data/Dataset.TU_SA
+!/data/Dataset.TNCC-title
+!/data/Dataset.TNCC-document
+!/data/Dataset.AdvTS
+
+# PLM
+!/data/PLM.BERT.Tibetan-BERT/README.md
+!/data/PLM.XLM-RoBERTa.CINO-small-v2/README.md
+!/data/PLM.XLM-RoBERTa.CINO-base-v2/README.md
+!/data/PLM.XLM-RoBERTa.CINO-large-v2/README.md
+
+# Victim
+!/data/Victim.BERT.Tibetan-BERT+TU_SA/README.md
+!/data/Victim.BERT.Tibetan-BERT+TNCC-title/README.md
+!/data/Victim.BERT.Tibetan-BERT+TNCC-document/README.md
+!/data/Victim.XLM-RoBERTa.CINO-small-v2+TU_SA/README.md
+!/data/Victim.XLM-RoBERTa.CINO-small-v2+TNCC-title/README.md
+!/data/Victim.XLM-RoBERTa.CINO-small-v2+TNCC-document/README.md
+!/data/Victim.XLM-RoBERTa.CINO-base-v2+TU_SA/README.md
+!/data/Victim.XLM-RoBERTa.CINO-base-v2+TNCC-title/README.md
+!/data/Victim.XLM-RoBERTa.CINO-base-v2+TNCC-document/README.md
+!/data/Victim.XLM-RoBERTa.CINO-large-v2+TU_SA/README.md
+!/data/Victim.XLM-RoBERTa.CINO-large-v2+TNCC-title/README.md
+!/data/Victim.XLM-RoBERTa.CINO-large-v2+TNCC-document/README.md
+
+# Adv
+!/data/Adv.TSAttacker.Tibetan-BERT+TNCC-title
+!/data/Adv.TSTricker_s.Tibetan-BERT+TNCC-title
+!/data/Adv.TSTricker_w.Tibetan-BERT+TNCC-title
+!/data/Adv.TSCheater_s.Tibetan-BERT+TNCC-title
+!/data/Adv.TSCheater_w.Tibetan-BERT+TNCC-title
+!/data/Adv.TSCheaterPlus.Tibetan-BERT+TNCC-title
+!/data/Adv.TSAttacker.Tibetan-BERT+TU_SA
+!/data/Adv.TSTricker_s.Tibetan-BERT+TU_SA
+!/data/Adv.TSTricker_w.Tibetan-BERT+TU_SA
+!/data/Adv.TSCheater_s.Tibetan-BERT+TU_SA
+!/data/Adv.TSCheater_w.Tibetan-BERT+TU_SA
+!/data/Adv.TSCheaterPlus.Tibetan-BERT+TU_SA

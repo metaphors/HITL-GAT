@@ -1,0 +1,85 @@
+{
+  "TU_SA.train": {
+    "file_name": "Dataset.TU_SA/train.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TU_SA.validation": {
+    "file_name": "Dataset.TU_SA/validation.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TU_SA.test": {
+    "file_name": "Dataset.TU_SA/test.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TNCC-title.train": {
+    "file_name": "Dataset.TNCC-title/train.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TNCC-title.validation": {
+    "file_name": "Dataset.TNCC-title/validation.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TNCC-title.test": {
+    "file_name": "Dataset.TNCC-title/test.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TNCC-document.train": {
+    "file_name": "Dataset.TNCC-document/train.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TNCC-document.validation": {
+    "file_name": "Dataset.TNCC-document/validation.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "TNCC-document.test": {
+    "file_name": "Dataset.TNCC-document/test.txt",
+    "columns": {
+      "label": "label",
+      "text": "text"
+    }
+  },
+  "Adv.TNCC-title": {
+    "file_name": "Dataset.AdvTS/Adv.TNCC-title.txt",
+    "columns": {
+      "label": "label",
+      "orig": "orig",
+      "adv": "adv",
+      "score": "score",
+      "attack": "attack"
+    }
+  },
+  "Adv.TU_SA": {
+    "file_name": "Dataset.AdvTS/Adv.TU_SA.txt",
+    "columns": {
+      "label": "label",
+      "orig": "orig",
+      "adv": "adv",
+      "score": "score",
+      "attack": "attack"
+    }
+  }
+}
