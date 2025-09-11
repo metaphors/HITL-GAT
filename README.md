@@ -2,22 +2,19 @@
 
 ## 😃 Introduction
 
-DNN-based language models perform excellently on various tasks, but even SOTA LLMs are susceptible to textual adversarial attacks.
-Adversarial texts play crucial roles in multiple subfields of NLP.
+DNN-based language models excel across various NLP tasks but remain highly vulnerable to textual adversarial attacks.
 
-However, current research has the following issues.
+While adversarial text generation is crucial for NLP security, explainability, evaluation, and data augmentation, related work remains overwhelmingly English-centric, leaving the problem of constructing high-quality and sustainable adversarial robustness benchmarks for lower-resourced languages both difficult and understudied.
 
-(1) Most textual adversarial attack methods target rich-resourced languages.
-How do we generate adversarial texts for less-studied languages?
+First, method customization for lower-resourced languages is complicated due to linguistic differences and limited resources.
 
-(2) Most textual adversarial attack methods are prone to generating invalid or ambiguous adversarial texts.
-How do we construct high-quality adversarial robustness benchmarks?
+Second, automated attacks are prone to generating invalid or ambiguous adversarial texts.
 
-(3) New language models may be immune to part of previously generated adversarial texts.
-How do we update adversarial robustness benchmarks?
+Last but not least, language models continuously evolve and may be immune to parts of previously generated adversarial texts.
 
-To address the above issues, we introduce _HITL-GAT_, a system based on a general approach to human-in-the-loop generation of adversarial texts.
-Additionally, we utilize _HITL-GAT_ to make a case study on Tibetan script which can be a reference for the adversarial research of other less-studied languages.
+To address these challenges, we introduce HITL-GAT, an interactive system based on a general approach to human-in-the-loop generation of adversarial texts.
+
+Additionally, we demonstrate the utility of HITL-GAT through a case study on Tibetan script, employing three customized adversarial text generation methods and establishing its first adversarial robustness benchmark, providing a valuable reference for other lower-resourced languages.
 
 ## 📝 Flowchart
 
@@ -58,18 +55,18 @@ You can find the downstream datasets in `data/Dataset.Info/all.json`.
 
 Also, you can customize your own datasets like above.
 
-### Foundation Models
+### Language Models
 
-You can find the foundation models in `data/PLM.*.*`.
+You can find the language models in `data/PLM.*.*`.
 
-| Foundation Model |              Directory               |
-|:----------------:|:------------------------------------:|
-|   Tibetan-BERT   |     `data/PLM.BERT.Tibetan-BERT`     |
-|  CINO-small-v2   | `data/PLM.XLM-RoBERTa.CINO-small-v2` |
-|   CINO-base-v2   | `data/PLM.XLM-RoBERTa.CINO-base-v2`  |
-|  CINO-large-v2   | `data/PLM.XLM-RoBERTa.CINO-large-v2` |
+| Language Model  |              Directory               |
+|:---------------:|:------------------------------------:|
+|  Tibetan-BERT   |     `data/PLM.BERT.Tibetan-BERT`     |
+|  CINO-small-v2  | `data/PLM.XLM-RoBERTa.CINO-small-v2` |
+|  CINO-base-v2   | `data/PLM.XLM-RoBERTa.CINO-base-v2`  |
+|  CINO-large-v2  | `data/PLM.XLM-RoBERTa.CINO-large-v2` |
 
-Also, you can customize your own foundation models like above.
+Also, you can customize your own language models like above.
 
 ### Victim Models
 
