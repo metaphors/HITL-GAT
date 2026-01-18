@@ -90,3 +90,29 @@ Now, you can `python webui.py` or run the scripts under the `script` dir.
 ## 😘 Acknowledgments
 
 Thanks to the following open-sourced projects: [OpenAttack](https://aclanthology.org/2021.acl-demo.43/), [Gradio](https://arxiv.org/abs/1906.02569), [LlamaFactory](https://aclanthology.org/2024.acl-demos.38/), [Transformers](https://aclanthology.org/2020.emnlp-demos.6/), [Datasets](https://aclanthology.org/2021.emnlp-demo.21/), and so on.
+
+## 📋 Citation
+
+If you think our work useful, please kindly cite our paper.
+
+```
+@inproceedings{cao-etal-2025-human,
+    title = "Human-in-the-Loop Generation of Adversarial Texts: A Case Study on {T}ibetan Script",
+    author = "Cao, Xi  and
+      Sun, Yuan  and
+      Li, Jiajun  and
+      Gesang, Quzong  and
+      Qun, Nuo  and
+      Tashi, Nyima",
+    editor = "Liu, Xuebo  and
+      Purwarianti, Ayu",
+    booktitle = "Proceedings of The 14th International Joint Conference on Natural Language Processing and The 4th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics: System Demonstrations",
+    month = dec,
+    year = "2025",
+    address = "Mumbai, India",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.ijcnlp-demo.2/",
+    pages = "9--16",
+    ISBN = "979-8-89176-301-2"
+}
+```
